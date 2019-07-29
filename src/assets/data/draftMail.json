@@ -1,0 +1,106 @@
+{
+    "draftData": [
+        {
+            "userName": "Akansha",
+            "read" : false,
+            "date": "August 15th 2014",
+            "email": [
+                "rohit@gmail.com",
+                "mohan@gmail.com"
+            ],
+            "subject": "Check application working",
+            "Message": "I am working on the application and it's not working Properly"
+        },
+        {
+            "userName": "Srigdha",
+            "read" : false,
+            "date": "july 20th 2015",
+            "email": [
+                "Mohit@gmail.com"
+            ],
+            "subject": "Apply for Loan",
+            "Message": "I am working in start-up and I am applying for personal loan"
+        },
+        {
+            "userName": "Anirban",
+            "read" : false,
+            "date": "April 24th 2018",
+            "email": [
+                "Vaibhav@gmail.com",
+                "lakshman@gmail.com",
+                "swati@gmail.com",
+                "shantvan@gmail.com"
+            ],
+            "subject": "Create a new Event in Office",
+            "Message": "Hello All, I am creating a new event in office who some want to help me support on my work they can help."
+        },
+        {
+            "userName": "Akansha",
+            "read" : false,
+            "date": "August 15th 2014",
+            "email": [
+                "rohit@gmail.com",
+                "mohan@gmail.com"
+            ],
+            "subject": "Check application working",
+            "Message": "I am working on the application and it's not working Properly"
+        },
+        {
+            "userName": "Koshal",
+            "read" : false,
+            "date": "May 28th 2019",
+            "email": [
+                "aakash@gmail.com",
+                "mohan@gmail.com",
+                "lakshya@gmail.com",
+                "lakshita@gmail.com"
+            ],
+            "subject": "Apply for GRE",
+            "Message": "My name is Soham. I am working in Microsoft for last 3 years. I am applying for this particular college. I will be waiting for your response"
+        },
+        {
+            "userName": "Robin",
+            "read" : false,
+            "date": "june 1 2019",
+            "email": [
+                "gajal@gmail.com"
+            ],
+            "subject": "Apply for Front-end Developer Role",
+            "Message": "My name is Gajal Vasita. I am working in Loktra Technology for past 1 year as front-end Developer. I saw the post for front-end Developer. I would like to apply their. Please Inform me if any suitable role fpor me."
+        },
+        {
+            "userName": "Akansha",
+            "read" : false,
+            "date": "August 15th 2014",
+            "email": [
+                "rohit@gmail.com",
+                "mohan@gmail.com"
+            ],
+            "subject": "Check application working",
+            "Message": "I am working on the application and it's not working Properly"
+        },
+        {
+            "userName": "Anirban",
+            "read" : false,
+            "date": "April 24th 2018",
+            "email": [
+                "Vaibhav@gmail.com",
+                "lakshman@gmail.com",
+                "swati@gmail.com",
+                "shantvan@gmail.com"
+            ],
+            "subject": "Create a new Event in Office",
+            "Message": "Hello All, I am creating a new event in office who some want to help me support on my work they can help."
+        },
+        {
+            "userName": "Srigdha",
+            "read" : false,
+            "date": "july 20th 2015",
+            "email": [
+                "Mohit@gmail.com"
+            ],
+            "subject": "Apply for Loan",
+            "Message": "I am working in start-up and I am applying for personal loan"
+        }
+    ]
+}

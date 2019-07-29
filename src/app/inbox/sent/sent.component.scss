@@ -1,0 +1,22 @@
+.emails {
+  border: 1px solid lightgray;
+  padding: 0.5vw;
+  font-family: open sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.emails:hover {
+  box-shadow: 2px 2px 2px lightgray;
+  cursor: pointer;
+  background-color: #da4453;
+  color: white;
+}
+
+.unread {
+  color: lightgray;
+}
+
+.read {
+  color: green;
+}

@@ -1,0 +1,29 @@
+<div class='bg-modal'>
+  <div class="modal-content">
+    <div class="close" (click)="closeLogin()"> <a>+</a></div>
+    <!-- <img src="./../assets/image_icons/award.webp" alt="icon image" /> -->
+    <h5>Sign in to continue to Gmail</h5>
+    <div class="forms">
+      <form (submit)="loginUser($event)" class="login_class">
+        <div class="user-logo">
+          <i class="fa fa-user"></i>
+        </div>
+        <div>
+          <div class="loginError" *ngIf="error?.length > 0">
+            <p>{{error[0]}}</p>
+          </div>
+          <div>
+            <input id="lusername" type="email" placeholder="Email" />
+          </div>
+          <div>
+            <input id="lpassword" type="password" placeholder="Password" />
+          </div>
+          <div class="login_btn">
+            <a>Forgot Password?</a>
+            <input class="btn-primary" id="loginSubmit" type="submit" value="Sign In" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

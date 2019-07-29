@@ -1,0 +1,38 @@
+.detailBox {
+  border: 1px solid lightgray;
+  padding: 5vh 3vw 5vh 2vw;
+  height: 60vh;
+  position: relative;
+
+  .btn {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .heading {
+    font-weight: bold;
+  }
+
+  .userHead {
+    .user {
+      font-size: 16px;
+      .fa-user {
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 25px;
+        margin-right: 8px;
+        border-radius: 15px;
+        color: gray;
+      }
+
+      .date {
+        margin-right: 3vw;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .message {
+    font-size: 20px;
+  }
+}

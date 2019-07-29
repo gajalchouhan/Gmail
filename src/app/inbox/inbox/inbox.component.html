@@ -1,0 +1,35 @@
+<div class="inbox-dashboard">
+  <div class="heading d-flex justify-content-start p-3">
+    <img src="./../../../assets/logo_gmail.png" class="pl-4" alt="logo" />
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2 col-md-2 col-lg-2 inbox-list">
+      <div class="compose pl-6">
+        <span class="composeClass" data-toggle="modal" data-target="#composeModal" (click)="getCompose()"> +
+          Compose</span>
+      </div>
+      <div class="list-item p-2">
+        <ul (click)="fieldSelect($event)">
+          <li id="inbox" value="inbox"><i class="fa fa-inbox pr-2 list-icon"></i>Inbox</li>
+          <li id="sent" value="sent"><i class="fa fa-paper-plane pr-2 list-icon"></i>Sent</li>
+          <li id="draft" value="draft"><i class="fa fa-file pr-2 list-icon"></i>Draft</li>
+          <li id="trash" value="trash"><i class="fa fa-trash pr-2 list-icon"></i>Trash</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-10 col-md-10 col-lg-10">
+      <app-inbox-all *ngIf="tabClick.inbox && !showEmailDetail"></app-inbox-all>
+      <app-sent *ngIf="tabClick.sent && !showEmailDetail"></app-sent>
+      <app-draft *ngIf="tabClick.draft && !showEmailDetail"></app-draft>
+      <app-trash *ngIf="tabClick.trash && !showEmailDetail"></app-trash>
+      <app-viewemail *ngIf="showEmailDetail"></app-viewemail>
+    </div>
+  </div>
+
+  <app-compose></app-compose>
+
+
+
+</div>

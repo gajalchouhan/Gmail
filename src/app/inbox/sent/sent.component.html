@@ -1,0 +1,11 @@
+<div>
+  <div *ngFor="let email of emails; let ind = index">
+    <div class="row emails" (click)="viewEmail(ind)">
+      <div class="col-sm-2 col-md-2 col-lg-2">
+        <i class="fa fa-check" [ngClass]="{'unread' : !email.read , 'read' : email.read}"></i>
+        {{email.userName}}</div>
+      <div class="col-sm-8 col-md-8 col-lg-8">{{email.subject}}</div>
+      <div class="col-sm-2 col-md-2 col-lg-2">{{email.date}}</div>
+    </div>
+  </div>
+</div>

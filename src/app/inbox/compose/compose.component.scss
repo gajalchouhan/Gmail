@@ -1,0 +1,33 @@
+.inputField {
+  input {
+    width: 100%;
+    padding-left: 0.5vw;
+  }
+
+  .message {
+    height: 32vh;
+    width: 100%;
+    font-family: open sans-serif;
+    padding-left: 0.5vw;
+  }
+}
+
+.emailToken {
+  border: 1px solid gray;
+  padding: 2px 5px;
+  border-radius: 15px;
+  margin: 1vh;
+  box-shadow: 1px 1px 1px lightgrey;
+  background: aliceblue;
+  color: black;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
+}
+
+.fa-close {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

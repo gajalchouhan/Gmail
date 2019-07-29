@@ -1,0 +1,105 @@
+.inbox-dashboard {
+  font-family: open sans-serif;
+
+  .heading {
+    border-bottom: 1px solid darkgray;
+    background-color: #434a54;
+  }
+
+  .inbox-list {
+    // border-right: 1px solid #434a54;
+
+    .compose {
+      padding: 2vh 2vw;
+
+      .composeClass {
+        border: 1px solid black;
+        padding: 1vh 2vw;
+        border-radius: 22px;
+        cursor: pointer;
+      }
+
+      .composeClass:hover {
+        background-color: #da4453;
+        color: white;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+    }
+
+    .list-item {
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          padding: 2vh 2vw;
+          font-size: 20px;
+          cursor: pointer;
+          letter-spacing: 1px;
+
+          .fa {
+            color: black;
+            font-size: 20px;
+          }
+        }
+
+        li:hover {
+          background-color: #da4453;
+          color: white;
+          border-bottom-right-radius: 30px;
+          border-top-right-radius: 30px;
+          letter-spacing: 1px;
+          cursor: pointer;
+          box-shadow: 2px 2px 2px 2px lightgray;
+        }
+
+        li:hover .fa:before {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .bg-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-contents {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  input {
+    margin: 15px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+    &:hover {
+      color: #666;
+    }
+  }
+}

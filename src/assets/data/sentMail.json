@@ -1,0 +1,25 @@
+{
+    "sentData": [
+        {
+            "userName": "Akansha",
+            "read" : false,
+            "date": "August 15th 2014",
+            "email": [
+                "rohit@gmail.com",
+                "mohan@gmail.com"
+            ],
+            "subject": "Check application working",
+            "Message": "I am working on the application and it's not working Properly"
+        },
+        {
+            "userName": "Srigdha",
+            "read" : false,
+            "date": "july 20th 2015",
+            "email": [
+                "Mohit@gmail.com"
+            ],
+            "subject": "Apply for Loan",
+            "Message": "I am working in start-up and I am applying for personal loan"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "trashData": [
+        {
+            "userName": "Akansha",
+            "read": false,
+            "date": "August 15th 2014",
+            "email": [
+                "rohit@gmail.com",
+                "mohan@gmail.com"
+            ],
+            "subject": "Check application working",
+            "Message": "I am working on the application and it's not working Properly"
+        }
+    ]
+}
